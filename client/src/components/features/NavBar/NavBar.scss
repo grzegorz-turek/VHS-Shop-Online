@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200, 165, 165);
+    height: 80px;
+    font-size: 26px;
+
+    &__container {
+        width: 944px;
+        margin: 0 28px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__links {
+        display: flex;
+
+        &__single__cart {
+            display: flex;
+            margin-left: 20px;
+
+        }
+    }
+}
+
+.navbar__links__single {
+    margin-left: 20px;
+}

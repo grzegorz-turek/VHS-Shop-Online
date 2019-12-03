@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200, 165, 165);
+    height: 50px;
+    font-size: 18px;
+
+    &__container {
+        width: 944px;
+        margin: 0 28px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+.footer__links__single {
+    margin-left: 20px;
+}
