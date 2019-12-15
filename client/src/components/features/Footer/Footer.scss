@@ -3,16 +3,12 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(200, 165, 165);
-    height: 50px;
+    height: 40px;
     font-size: 18px;
-
-    &__container {
-        width: 944px;
-        margin: 0 28px;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .footer__links__single {

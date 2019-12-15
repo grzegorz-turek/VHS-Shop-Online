@@ -8,13 +8,18 @@
   background-color: rgba(0, 0, 0, 0.5);
   overflow: auto;
   padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   .modal__modal-window {
     display: flex;
     flex-direction: column;
     background: white;
     padding: 10px 10px 40px 10px;
     width: 400px;
-    margin: 0 auto;
+    margin-top: 80px;
+
     .button {
       align-self: flex-end;
     }
